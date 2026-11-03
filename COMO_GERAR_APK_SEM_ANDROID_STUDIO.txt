@@ -1,0 +1,20 @@
+RF PRINT - GERAR APK SEM INSTALAR ANDROID STUDIO
+
+Este projeto foi preparado com GitHub Actions para compilar o APK na nuvem.
+
+PASSOS:
+1. Entre em https://github.com e crie uma conta ou entre na sua conta.
+2. Crie um repositório novo chamado RF-PRINT. Pode deixar privado.
+3. Extraia o ZIP do projeto no computador.
+4. Envie os arquivos e pastas que estão dentro da pasta RF_PRINT para o repositório (incluindo a pasta oculta .github).
+5. No GitHub, abra a aba Actions.
+6. Se aparecer uma solicitação para habilitar Actions, habilite.
+7. Escolha "Build RF PRINT APK" e clique em "Run workflow".
+8. Aguarde o trabalho terminar com sucesso.
+9. Na página da execução, vá até Artifacts e baixe "RF-PRINT-APK".
+10. Extraia o arquivo baixado. O APK estará dentro dele.
+
+IMPORTANTE:
+- Este processo compila o APK; não prova que a impressora física está funcionando.
+- O aplicativo ainda precisa ser testado no tablet e na impressora Oasis.
+- O projeto usa Bluetooth clássico SPP/ESC-POS. Se a impressora não aceitar esse protocolo, será necessário adaptar.
